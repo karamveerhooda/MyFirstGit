@@ -1,0 +1,11 @@
+name: Suite
+tests:
+  - name: Test
+    classes:
+      - dataproviderexample.Driverclass
+      - dataproviderexample.Loginsite
+      - dataproviderexample.onewaytrip
+      - dataproviderexample.select3and4flight
+      - dataproviderexample.sreeenshotresult
+      - dataproviderexample.pageClosing
+

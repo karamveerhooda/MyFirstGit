@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="dataproviderexample.Loginsite">
+        <methods>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- dataproviderexample.Loginsite -->
+      <class name="dataproviderexample.select3and4flight">
+        <methods>
+          <include name="testflightselect"/>
+        </methods>
+      </class> <!-- dataproviderexample.select3and4flight -->
+      <class name="dataproviderexample.pageClosing">
+        <methods>
+          <include name="closethebrowser"/>
+        </methods>
+      </class> <!-- dataproviderexample.pageClosing -->
+      <class name="dataproviderexample.multiplekeys">
+        <methods>
+          <include name="newmethod"/>
+        </methods>
+      </class> <!-- dataproviderexample.multiplekeys -->
+      <class name="dataproviderexample.Driverclass">
+        <methods>
+          <include name="createWebDriverInstance"/>
+        </methods>
+      </class> <!-- dataproviderexample.Driverclass -->
+      <class name="dataproviderexample.onewaytrip">
+        <methods>
+          <include name="onewayt"/>
+        </methods>
+      </class> <!-- dataproviderexample.onewaytrip -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
