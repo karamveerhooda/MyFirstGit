@@ -7,7 +7,7 @@ public class SimpleProgram {
 		
 		WebDriver driver = new FirefoxDriver();		
 		driver.get("https://www.amazon.com");
-//		driver.close();
+//		driver.close()
 		//trying to intimate karamveer via gmail that code has been change
 		
 		
