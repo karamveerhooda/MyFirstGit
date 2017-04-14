@@ -8,7 +8,7 @@ public class SimpleProgram {
 		WebDriver driver = new FirefoxDriver();		
 		driver.get("https://www.amazon.com");
 //		driver.close();
-		//pushing to github
+		
 		
 		
 	}
