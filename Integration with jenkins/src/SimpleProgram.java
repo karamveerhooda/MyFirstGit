@@ -7,6 +7,7 @@ public class SimpleProgram {
 		
 		WebDriver driver = new FirefoxDriver();		
 		driver.get("https://www.amazon.com");
+		System.out.println("This is to check the code added in between");
 //		driver.close()
 		//trying to intimate karamveer via gmail that code has been change
 		
